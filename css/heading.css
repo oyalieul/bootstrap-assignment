@@ -1,76 +1,68 @@
-/* header */
 
-/* .self-div-heading {
-    height: 600px;
-    padding: 250px 0;
-    background-color: #f8a51d;
-    font-family: "Amazon Ember";
-} */
 
-.self-card{
-    transition: 0.4s;
-    
-}
-.self-card:hover{
-    /* background-color: #f8a51d;
-    border-color: #f8a51d; */
-    border-radius: 25px;
-    transition:  0.4s;
-    
-}
 .self-br{ 
     border-radius: 10px;
 }
-
-.test-2{
-    padding-bottom:100px; 
-}
-
-
 .self-margin-tb{
     margin: 40px auto;
 }
-
-
-.self-msg{
-    padding: 30px 0;
-    text-align: center;
-    font-size: large;
-    font-weight: bold;
+.self-ft-ct{
+    padding: 60px 15px; 
+    height: 250px;
 }
-
-/* .self-grid{
-    background-color: darkorange; 
-    padding-top: 75px;
-    padding-bottom: 75px; 
-    text-align:center; 
-} */
+.self-round-card{
+    border-radius: 100px; 
+    width: 150px; 
+    height:150px;
+}
 .self-grid-span{
-    /* text-transform:uppercase; */
     font-size: xx-large;
     padding: 40px 0 60px 10px;
     color: antiquewhite;
 }
 
-.card img{
-    border-radius: 9px;
-}
+/* card hover effect */
 .card{
     transition: transform .4s;
     border-radius: 9px; 
     margin: auto;
 }
+
 .card:hover{
     transform: scale(1.1);
     border-color: #f8a51d;
-    /* border-radius:5px; */
     background-color: #f8a51d;
-    /* color: white; */
     transition: 0.3s;
-
 }
+
+/* card btn hover effect */
+.self-card-btn{
+    transition: 0.4s;
+}
+.self-card-btn:hover{
+    border-radius: 25px;
+    transition:  0.4s;
+}
+
+.card-img-top{
+    border-radius: 9px;
+    height: 300px;
+}
+
+
 
 footer{
     background-color: black;
-    height: 100px;
+    height: 300px;
+}
+
+.self-footer-img{
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+/* vertical line */
+.self-vline{
+    border-right: 1px solid white;
+    margin-right:10px;
 }

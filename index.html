@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment_2</title>
+    <title>Amazon Bangladesh</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/heading.css">
     <link
@@ -36,6 +36,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="https://www.aboutamazon.com/?utm_source=gateway&utm_medium=footer">About Us</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.amazon.jobs/en/">Career</a>
+              </li>
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -46,16 +49,11 @@
       </nav>
 
 <!-- 10% discount msg -->
-<div class="text-center self-margin-tb"style="font-size:large ">
-      <div style="display:inline-block">
-        <p style="font-weight: bold; ">Get &nbsp;</p> 
-      </div>
-      <div style="display:inline-block">
-        <p class="animate__animated animate__tada animate__infinite" style="color:red; font-weight: bolder; ">10% Discount!!!</p>
-      </div>
-      <div style="display:inline-block; font-weight: bold">
-        <p>&nbsp;on all products</p>
-      </div>
+<div class="d-flex justify-content-center text-center self-margin-tb" style="font-size:large ">
+        <p class="fw-bold">GET &nbsp;</p>
+<!-- css animation used here -->
+        <p class="animate__animated animate__tada animate__infinite" style="color:red; font-weight: bolder; ">10% DISCOUNT!!!</p>
+        <p class="fw-bold ">&nbsp;&nbsp;ON ALL PRODUCTS</p>
 </div>
 
 <!-- sliders -->
@@ -99,25 +97,40 @@
 
 <!-- features & category -->
 <div class="container self-margin-tb">
-  <div class="row g-4">
-    <!-- first column -->
+  <div class="row g-3">
+    
+<!-- first column -->
     <div class="col-12 col-md-6">
-      <div class="border self-br " style="background-color:rgb(23, 216, 223); height: 300px;">
-        <span >Matter Of Some Clicks <br>Lets Shop</span>
-      </div>
+      <div class="border text-center self-br" style="background-color:rgb(23, 216, 223);">
+          <!-- category -->
+            <div class="d-flex justify-content-around fw-bold self-ft-ct">
+              <!-- first category -->
+              <div class="shadow-lg bg-body self-round-card animate__animated animate__fadeInDown animate__delay-1s">
+                <img src="img/category1.jpg" width="100px" height="100px" alt="">
+                <p>Sunglass</p>
+              </div>
+              <!-- second category -->
+              <div class= "shadow-lg bg-body self-round-card animate__animated animate__fadeInDown animate__delay-2s">
+                <img src="img/category2.png" width="100px"height="100px" alt="" style="border-radius:50px">
+                <figure>Shoe</figure>
+              </div>
+            </div>
+            <p style="font-size: x-large; color:black;"> BESTSELLING CATEGOTY</p>
+          </div>   
     </div>
+
     <!-- second column -->
     <div class="col-12 col-md-6">
       <div class="border text-center self-br" style="background-color:rgba(220, 20, 60, 0.911)">
       <!-- features -->
-        <div class="d-flex justify-content-around fw-bold" style="padding: 60px 0; height: 250px;">
+        <div class="d-flex justify-content-around fw-bold self-ft-ct">
           <!-- first feature -->
-          <div class="shadow-lg bg-body animate__animated animate__fadeInDown animate__delay-1s" style="border-radius: 100px; width: 150px; height:150px;">
+          <div class="shadow-lg bg-body self-round-card animate__animated animate__fadeInDown animate__delay-3s">
             <img src="img/features1.png" width="100px" height="100px" alt="">
             <p>Quick Delivery</p>
           </div>
           <!-- second feature -->
-          <div class= "shadow-lg bg-body animate__animated animate__fadeInDown animate__delay-2s" style="border-radius: 100px; width: 150px; height:150px;">
+          <div class= "shadow-lg bg-body self-round-card animate__animated animate__fadeInDown animate__delay-4s">
             <img src="img/features2.png" width="100px"height="100px" alt="">
             <figure>10-day Return</figure>
           </div>
@@ -131,31 +144,56 @@
 <!-- grid -->
 <div class="container">
 <div class="container bg-dark self-margin-tb self-br">
-      <div class="self-grid-span">
-        <span>Our Products</span>
+      <div class="self-grid-span text-center">
+        <span>OUR PRODUCTS</span>
         </div>
-  <div class="row g-5 test-2" >
+  <div class="row g-5" style="padding-bottom:100px;" >
     <div class="col col-sm-12 col-md-6 col-lg-4">
-      <!-- card -->
+      <!-- card 1-->
       <div class="card" style="width: 18rem;">
         <img src="img/product1.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">iPhone 13 Pro</h5><br>
+        <div class="card-body" style="height: 230px">
+          <h5 class="card-title">iPhone 13 Pro - $999</h5><br>
           <p class="card-text text-center">Color: Sierra Blue<br>Display Size: 6.1"<br>Storage: 128GB</p>
-          <div class="text-center"><a href="#" class="btn btn-dark self-card">Buy Now</a></div>
+          <div class="text-center"><a href="#" class="btn btn-dark self-card-btn">Buy Now</a></div>
           
         </div>
       </div>
     </div>
 
     <div class="col col-sm-12 col-md-6 col-lg-4">
-      <!-- card -->
+      <!-- card 2-->
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">iPhone 13 Pro</h5><br>
-          <p class="card-text text-center">Color: Sierra Blue<br>Display Size: 6.1"<br>Storage: 128GB</p>
-          <div class="text-center"><a href="#" class="btn btn-dark self-card">Buy Now</a></div>
+        <img src="img/product2.jpg" class="card-img-top" alt="...">
+        <div class="card-body" style="height: 230px">
+          <h5 class="card-title">Nike SB BLZR Court Mid Premium - $97.60</h5><br>
+          <p class="card-text text-center">Color: Light Curry<br>Style: DH7146-001</p>
+          <div class="text-center"><a href="#" class="btn btn-dark self-card-btn">Buy Now</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col col-sm-12 col-md-6 col-lg-4">
+      <!-- card 3-->
+      <div class="card" style="width: 18rem;">
+        <img src="img/product3.jpg" class="card-img-top" alt="...">
+        <div class="card-body" style="height: 230px">
+          <h5 class="card-title">Skagen Riis Watch - $87</h5><br>
+          <p class="card-text text-center">Case Color: Silver<br>Case Size: 40MM<br>
+            Dial Color: Gray</p>
+          <div class="text-center"><a href="#" class="btn btn-dark self-card-btn">Buy Now</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col col-sm-12 col-md-6 col-lg-4">
+      <!-- card 4-->
+      <div class="card" style="width: 18rem;">
+        <img src="img/product4.jpg" class="card-img-top" alt="...">
+        <div class="card-body" style="height: 230px">
+          <h5 class="card-title">Nike SB Zoom Blazer Mid - $100</h5><br>
+          <p class="card-text text-center">Color: Black<br>Material: Leather</p>
+          <div class="text-center"><a href="#" class="btn btn-dark self-card-btn">Buy Now</a></div>
         </div>
       </div>
     </div>
@@ -163,72 +201,48 @@
     <div class="col col-sm-12 col-md-6 col-lg-4">
       <!-- card -->
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">iPhone 13 Pro</h5><br>
-          <p class="card-text text-center">Color: Sierra Blue<br>Display Size: 6.1"<br>Storage: 128GB</p>
-          <div class="text-center"><a href="#" class="btn btn-dark self-card">Buy Now</a></div>
+        <img src="img/product5.jpg" class="card-img-top" alt="...">
+        <div class="card-body" style="height: 230px">
+          <h5 class="card-title">GAZELLE SHOES - $80</h5><br>
+          <p class="card-text text-center">Product color: Core Black <br>Product code: CQ2809</p>
+          <div class="text-center"><a href="#" class="btn btn-dark self-card-btn">Buy Now</a></div>
         </div>
       </div>
     </div>
 
     <div class="col col-sm-12 col-md-6 col-lg-4">
-      <!-- card -->
+      <!-- card 6-->
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">iPhone 13 Pro</h5><br>
-          <p class="card-text text-center">Color: Sierra Blue<br>Display Size: 6.1"<br>Storage: 128GB</p>
-          <div class="text-center"><a href="#" class="btn btn-dark self-card">Buy Now</a></div>
+        <img src="img/product6.jpg" class="card-img-top" alt="...">
+        <div class="card-body" style="height: 230px">
+          <h5 class="card-title">Nike SB Shane - 93$</h5><br>
+          <p class="card-text text-center">Color: Black<br>Style: BV0657-009</p>
+          <div class="text-center"><a href="#" class="btn btn-dark self-card-btn">Buy Now</a></div>
         </div>
       </div>
     </div>
 
     <div class="col col-sm-12 col-md-6 col-lg-4">
-      <!-- card -->
+      <!-- card 7-->
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">iPhone 13 Pro</h5><br>
-          <p class="card-text text-center">Color: Sierra Blue<br>Display Size: 6.1"<br>Storage: 128GB</p>
-          <div class="text-center"><a href="#" class="btn btn-dark self-card">Buy Now</a></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col col-sm-12 col-md-6 col-lg-4">
-      <!-- card -->
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">iPhone 13 Pro</h5><br>
-          <p class="card-text text-center">Color: Sierra Blue<br>Display Size: 6.1"<br>Storage: 128GB</p>
-          <div class="text-center"><a href="#" class="btn btn-dark self-card">Buy Now</a></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col col-sm-12 col-md-6 col-lg-4">
-      <!-- card -->
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">iPhone 13 Pro - $999</h5><br>
-          <p class="card-text text-center">Color: Sierra Blue<br>Display Size: 6.1"<br>Storage: 128GB</p>
-          <div class="text-center"><a href="#" class="btn btn-dark self-card">Buy Now</a></div>
+        <img src="img/product7.jpg" class="card-img-top" alt="...">
+        <div class="card-body" style="height: 230px">
+          <h5 class="card-title">Fossil Minimalist Watch - $130</h5><br>
+          <p class="card-text text-center">Color: Brown<br>Three-Hand<br>Material: Leather</p>
+          <div class="text-center"><a href="#" class="btn btn-dark self-card-btn">Buy Now</a></div>
         </div>
       </div>
     </div>
 
 
     <div class="col col-sm-12 col-md-6 col-lg-4">
-      <!-- card -->
+      <!-- card 8-->
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">iPhone 13 Pro</h5><br>
-          <p class="card-text text-center">Color: Sierra Blue<br>Display Size: 6.1"<br>Storage: 128GB</p>
-          <div class="text-center"><a href="#" class="btn btn-dark self-card">Buy Now</a></div>
+        <img src="img/product8.jpg" class="card-img-top" alt="...">
+        <div class="card-body" style="height: 230px">
+          <h5 class="card-title">Austinn Tea - $20</h5><br>
+          <p class="card-text text-center">Color: Brown</p>
+          <div class="text-center"><a href="#" class="btn btn-dark self-card-btn">Buy Now</a></div>
         </div>
       </div>
     </div>
@@ -239,8 +253,32 @@
   </div>
 
 <!-- footer -->>
-<footer class="bg-dark bg-gradiant">
+<footer class="bg-dark">
+<div class="d-flex justify-content-around text-white" style="padding:50px">
+  <!-- section 1 -->
+  <div >
+    <img class="self-footer-img" src="img/logo 2.jpg" width="80px" height="80px" alt="">
+    <p>Amazon Bangladesh<br>An ecommerce website</p>
+  </div>
 
+  <!-- vertical line -->
+  <div class="self-vline"></div>
+  <!-- section 2 -->
+  <div >
+    <p class="fw-bold">Important Links</p>
+    <a href="#">Original Store</a><br>
+    <a href="#">About Us</a><br>
+    <a href="#">Career</a>
+  </div>
+  <!-- vertical line -->
+  <div class="self-vline"></div>
+  <!-- section 3 -->
+  <div>
+    <p class="fw-bold">Contact Info</p>
+    <p>Address: Block B, <br>Bashundhara,<br> Dhaka - 1229</p>
+    <p>Email: info@amazonbd.com</p>
+  </div>
+</div>
 </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
